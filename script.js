@@ -1,8 +1,9 @@
+document.querySelectorAll('form').forEach((form, index) => {
+    form.addEventListener('submit', window[`f${index + 1}Func`]);
+});
+
+
 // function 1
-const f1Form = document.querySelector('#f1 form');
-
-f1Form.addEventListener('submit', f1Func);
-
 function f1Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -15,10 +16,6 @@ function f1Func(e) {
 }
 
 // function 2
-const f2Form = document.querySelector('#f2 form');
-
-f2Form.addEventListener('submit', f2Func);
-
 function f2Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -33,10 +30,6 @@ function f2Func(e) {
 }
 
 // function 3
-const f3Form = document.querySelector('#f3 form');
-
-f3Form.addEventListener('submit', f3Func);
-
 function f3Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -49,10 +42,6 @@ function f3Func(e) {
 }
 
 // function 4
-const f4Form = document.querySelector('#f4 form');
-
-f4Form.addEventListener('submit', f4Func);
-
 function f4Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -65,10 +54,6 @@ function f4Func(e) {
 }
 
 // function 5
-const f5Form = document.querySelector('#f5 form');
-
-f5Form.addEventListener('submit', f5Func);
-
 function f5Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -83,10 +68,6 @@ function f5Func(e) {
 }
 
 // function 6
-const f6Form = document.querySelector('#f6 form');
-
-f6Form.addEventListener('submit', f6Func);
-
 function f6Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -104,10 +85,6 @@ function f6Func(e) {
 }
 
 // function 7
-const f7Form = document.querySelector('#f7 form');
-
-f7Form.addEventListener('submit', f7Func);
-
 function f7Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -123,10 +100,6 @@ function f7Func(e) {
 }
 
 // function 8
-const f8Form = document.querySelector('#f8 form');
-
-f8Form.addEventListener('submit', f8Func);
-
 function f8Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -142,10 +115,6 @@ function f8Func(e) {
 }
 
 // function 9
-const f9Form = document.querySelector('#f9 form');
-
-f9Form.addEventListener('submit', f9Func);
-
 function f9Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -162,10 +131,6 @@ function f9Func(e) {
 }
 
 // function 10
-const f10Form = document.querySelector('#f10 form');
-
-f10Form.addEventListener('submit', f10Func);
-
 function f10Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -190,10 +155,6 @@ function f10Func(e) {
 }
 
 // function 11
-const f11Form = document.querySelector('#f11 form');
-
-f11Form.addEventListener('submit', f11Func);
-
 function f11Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -222,10 +183,6 @@ function f11Func(e) {
 }
 
 // function 12
-const f12Form = document.querySelector('#f12 form');
-
-f12Form.addEventListener('submit', f12Func);
-
 function f12Func(e) {
     let table = [];
     e.preventDefault();
@@ -248,10 +205,6 @@ function f12Func(e) {
 }
 
 // function 13
-const f13Form = document.querySelector('#f13 form');
-
-f13Form.addEventListener('submit', f13Func);
-
 function f13Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
@@ -267,10 +220,6 @@ function f13Func(e) {
 }
 
 // function 14
-const f14Form = document.querySelector('#f14 form');
-
-f14Form.addEventListener('submit', f14Func);
-
 function f14Func(e) {
     e.preventDefault();
     let inp1 = e.target[0];
